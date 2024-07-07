@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en" manifest="https://salmandascript.github.io/linkWikipedia"/>
+ <head>
+	 <title>Use Wikipedia</title>
+	 <meta charset="UTF-8"/>
+	
+	 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	 
+	 <meta name="description" content="Wikipedia"/>
+
+<meta name="keywords" content="Wikipedia, History, Education,"/>
+
+<meta name="Author" content="Salmanda"/>
+
+<meta name="revised" content="Wikipedia,3/6/2024"/>
+ 
+  <meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7"/>
+    
+    <meta name="mobile-web-app-capable" content="yes"/>
+    
+    <meta name="apple-mobile-web-app-capable" content="yes"/>
+    
+    <meta name="msapplication-starturl" content=""/>
+    
+    <meta name="theme-color" content="teal"/>
+  
+  <link rel="icon" type="image" href="wikipedia.png"/>
+	 
+<link rel="stylesheet" href="bootstrap.min.css" type="text/css"/>
+
+<link rel="stylesheet" href="wikipedia.css" type="text/css"/>
+	 
+<meta name="theme-color" content="teal"/>
+	 
+	 <style type="text/css" media="all">
+body{
+background: linear-gradient(to right, teal, white);
+border:4px groove;
+padding:8px;
+border-color:orange;
+border-radius: 6pt;
+}
+
+img {
+border: groove white 1pt;
+border-radius: 50pt;
+}
+
+button{
+border: groove orange;
+border-radius: 8px;
+border-color: orange;
+background-color: orange;
+padding: 7px;
+}
+
+button:hover{
+background-color: teal;
+color: grey;
+}
+</style>
+	 
+<!--<base href="https://www.wikipedia.org/"></base>-->
+</head>
+ </head>
+	 <body>
+	 <img src="wikipedia.png" width="65pt"/>
+	 	
+<nav style="float:right">
+	
+	<!--option menu-->
+<div class="btn-group">
+<button onclick="salmanda1();" id="demo1"
+ style="border-color: white; background: orange" 
+ data-toggle="dropdown" class="btn btn-default dropdown-toggle btn-sm">📒 Option Menu</button> 
+
+<ul class="dropdown-menu royal2"> 
+<center><li><button onclick="newsChannel(); salmandai();" id="demoi"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">📰 News Channel</button>
+	
+	<!--<li class="divider"></li>
+	<li><button onclick="salmandaiix();" id="demoiix"
+	 style="border-color: white" type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModal5"
+>🐒 Tourism</button></li>-->
+
+<!--<a href="file:///storage/emulated/0/salmanda/onlineRadio/musicStore/musicStore.html">-->
+	
+	<!--<button onclick="salmandaiii();" id="demoiii"
+	 style="border-color: white" type="button" class="btn btn-secondary btn-sm"
+	 onclick="alert('This Site is still under development.');">📚 Education</button> </a></li>-->
+
+<li class="divider"></li> 
+<li><button onclick="programming(); salmandaiv();" id="demoiv"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">📟 Programming</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="salmandaMusiq(); salmandavi();" id="demovi"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">🎼 My Music</button></li>
+
+<!--<li class="divider"></li> 
+<li><button onclick="linkChatGPT(); salmandavii();" id="demovii"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 16pt; border: none" src="chatGPT.png"/> ChatGpT</button></li>-->
+
+<li class="divider"></li> 
+<li><button onclick="movieChannel(); salmandaviii();" id="demoviii"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">🎬 Movie Channel</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="royalFM(); salmandaix();" id="demoix"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style="width: 16pt; border: none" src="Royal.png"/> RoyalFM</button></li>
+ 
+ <li class="divider"></li> 
+<li><button onclick="seer(); salmandax();" id="demox"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm"><img style=" width: 16pt; border: none" src="Eye.png"/> Seer</button></li>
+
+<li class="divider"></li> 
+<li><button onclick="contact(); salmandaxi();" id="demoxi"
+ style="border-color: white" type="button" class="btn btn-secondary btn-sm">📬 FeedBack</button></li></center>
+</ul> 
+</div>
+	
+<!--<button onclick="salmanda3();" id="demo3" style="border-color: white"
+ type="button" class="btn btn-secondary btn-sm" data-toggle="modal" data-target="#myModalE"
+>🎬 Selection</button>-->
+
+<button onclick="africaOnline(); salmanda2();" id="demo2" style="border-color: white"
+ type="button" class="btn btn-secondary btn-sm" >🏠 Home </button> 
+</nav><hr>
+<!--end option menu-->
+
+<!--selected videos modal-->
+<div id="myModalE" class="modal fade" >
+<div class="modal-dialog; modal-lg"> 
+<div class="modal-content"> 
+<div class="modal-header"> 
+
+<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
+	 
+<h6 class="modal-title">IMPORTANT NOTICE.</h6> 
+</div> 
+
+<div class="modal-body; new"><br>
+	<div style="color: white"><p>Let's engage, we would Love to here from you please,  Send us your Comments, FeedBack and Ratings out of 10, on various Artist and projects. You might as well lnclude an image for publication purpose and contacts to receive updates.</p></div>
+	 
+	 <center>
+<form method ="post" 
+enctype ="text/plain" 
+name="TextArea" action="mailto:clementjuma.cmm@gmail.com" 
+onSubmit="feedBack();">
+
+	 <textarea style="background-color: gray"  rows='8' cols='40' placeholder="Type here..."
+	   name="TextArea" required="required">
+ </textarea>
+ 
+ <p>Send files and images for Publications</p>
+	 <input class="btn-sm btn-warning" type="file" required="required"/><br>
+
+	<button class="btn btn-secondary btn-sm" type ="submit">Send</button>
+	</center>
+	</form>
+ <h2></h2><hr>
+</div>
+        
+<div class="modal-footer"> 
+<button class="btn btn-secondary btn-sm" data-dismiss="modal">Close &times;
+</button> 
+</div> 
+</div> 
+</div> 
+</div>
+<!--selected videos modal-->
+	 
+	<iframe style="width:100%; border-radius: 2px" height="2000"  src="https://www.wikipedia.org/"></iframe><br>
+	
+<button onclick="location.reload(); salmanda5();" id="demo5"
+ style="border-color: white; float: right"
+ type="button" class="btn btn-secondary btn-sm" >↩ Refresh</button><br><br>
+
+<footer style="text-align: center">&copy Copyright 2024 | SM Technology | Wikipedia
+
+<script src="jquery.min.js" defer></script>
+
+<script src="bootstrap.min.js" defer></script>
+
+<script src="wikipedia.js" defer></script>
+
+	 </body>
+ </html>
